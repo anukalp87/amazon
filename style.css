@@ -9,9 +9,10 @@ body{
     color: rgb(0, 226, 218);
 }
 #header{
+    margin: 0px;
     padding: 20px 3%;
     width: 100%;
-    height: 55vh;
+    height: 45vh;
     background-image: url(image/back.jpg);
     background-position: center;
     background-size: cover;
@@ -47,7 +48,7 @@ nav ul li{
 nav ul li a{ 
     text-decoration: none;
     color: rgb(255, 255, 255); 
-    font-size: 18px;
+    font-size: 35px;
     position: relative;
 }
 nav ul li a::after{
@@ -67,26 +68,27 @@ nav ul li a:hover::after{
     padding: 10px 10px;
 }
 .infocontainer h1{
-    font-size: 70px;
+    margin-top: 30px;
+    font-size: 90px;
     text-align: center;
-    color: rgb(33, 104, 33);
+    color: rgb(57, 206, 57);
 }
 .infocontainer h2{
-    font-size: 25px;
+    font-size: 45px;
     text-align: center;
-    color: blue;
+    color: rgb(249, 44, 3);
 }
 
 h4{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 35px;
     text-align: center;
     color: rgb(220, 194, 22);
 }
 h3{
     margin-top: 25px;
-    font-size: 16px;
+    font-size: 30px;
     text-align: center;
     color: #4db5ff;
 }
@@ -107,134 +109,141 @@ h3{
 }
 
 .macbook h6{
-    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
     margin-left: 25px;
     padding: 0px 3%;
-    font-size: 35px;
-    color: rgb(88, 0, 0);
+    font-size: 55px;
+    color: rgb(223, 38, 38);
 }
 
 .asus h6{
-    margin-top: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     margin-left: 25px;
     padding: 0px 3%;
-    font-size: 35px;
-    color: rgb(88, 0, 0);
+    font-size: 55px;
+    color: rgb(190, 27, 27);
 }
 
 .mi h6{
-    margin-top: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     margin-left: 25px;
     padding: 0px 3%;
-    font-size: 35px;
-    color: rgb(88, 0, 0);
+    font-size: 55px;
+    color: rgb(191, 30, 30);
 }
 
 .hp h6{
-    margin-top: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     margin-left: 25px;
     padding: 0px 3%;
-    font-size: 35px;
-    color: rgb(88, 0, 0);
+    font-size: 55px;
+    color: rgb(220, 63, 63);
 }
 
 .dell h6{
-    margin-top: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     margin-left: 25px;
     padding: 0px 3%;
-    font-size: 35px;
-    color: rgb(88, 0, 0);
+    font-size: 55px;
+    color: rgb(202, 38, 38);
 }
 
 
 .Apple h6{
-    margin-left: 25px;
+    margin-left: 55px;
+    margin-top: 30px;
     padding: 0px 3%;
-    font-size: 35px;
-    color: rgb(255, 255, 255);
+    font-size: 45px;
+    color: rgb(221, 30, 30);
 }
 .iphone{
     padding: 20px 3%;
 }
 .iphone h5{
-    margin-top: 10px;
+    /* margin-top: 10px; */
     margin-left: 35px;
     padding: 0px 3%;
-    font-size: 35px;
-    color: rgb(255, 255, 255);
+    font-size: 40px;
+    color: rgb(5, 181, 200);
 }
 .ipad{
     padding: 20px 3%;
 }
 .ipad h5{
     margin-top: 10px;
-    margin-left: 35px;
+    margin-left: 40px;
     padding: 0px 3%;
     font-size: 35px;
-    color: rgb(255, 255, 255);
+    color: rgb(11, 199, 220);
 }
 
 .oneplus h6{
-    margin-top: 10px;
+    margin-top: 30px;
     margin-left: 25px;
     padding: 0px 3%;
-    font-size: 35px;
-    color: rgb(88, 0, 0);
+    font-size: 45px;
+    color: rgb(160, 19, 19);
 }
 
 .motorola h6{
-    margin-top: 10px;
+    margin-top: 50px;
+    margin-bottom: 10px;
     margin-left: 25px;
     padding: 0px 3%;
-    font-size: 35px;
-    color: rgb(88, 0, 0);
+    font-size: 45px;
+    color: rgb(185, 29, 29);
 }
 
 .xiaomi h6{
     margin-top: 10px;
     margin-left: 25px;
     padding: 0px 3%;
-    font-size: 35px;
-    color: rgb(88, 0, 0);
+    font-size: 45px;
+    color: rgb(185, 29, 29);
 }
 
 .vivo h6{
-    margin-top: 10px;
+    margin-top: 30px;
     margin-left: 25px;
     padding: 0px 3%;
-    font-size: 35px;
-    color: rgb(88, 0, 0);
+    font-size: 45px;
+    color: rgb(185, 29, 29);
 }
 
 .poco h6{
-    margin-top: 10px;
+    margin-top: 30px;
     margin-left: 25px;
     padding: 0px 3%;
-    font-size: 35px;
-    color: rgb(88, 0, 0);
+    font-size: 45px;
+    color: rgb(185, 29, 29);
 }
 
 .opp h6{
-    margin-top: 10px;
+    margin-top: 30px;
     margin-left: 25px;
     padding: 0px 3%;
-    font-size: 35px;
-    color: rgb(88, 0, 0);
+    font-size: 45px;
+    color: rgb(185, 29, 29);
 }
 
 .redmi h6{
-    margin-top: 10px;
+    margin-top: 40px;
     margin-left: 25px;
     padding: 0px 3%;
-    font-size: 35px;
-    color: rgb(88, 0, 0);
+    font-size: 45px;
+    color: rgb(185, 29, 29);
 }
 
 .services-list{
-    margin-left: 90px;
-    margin-right: 90px;
+    margin-left: 100px;
+    margin-right: 50px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(190px, 3fr));
     grid-gap:40px;
     margin-top: 10px;
 }
@@ -255,7 +264,7 @@ h3{
     border-radius: 5px;
 }
 .services-list a{
-    font-size: 10px;
+    font-size: 15px;
     margin-left: 10px;
     text-decoration: none;
     color: #000000;
@@ -373,16 +382,17 @@ nav .fa-solid{
         cursor: pointer ;
     }
     .container h1 span{
-        color: rgb(228, 144, 155);
+        color: rgb(243, 212, 88);
     }
     .container h1{
+        margin-top: 10px;
         font-size: 25px;
-        color: #d92e04;
+        color: #2a41c3;
     }
     .infocontainer h2{
         font-size: 15px;
         text-align: center;
-        color: #6DA5C0;
+        color: #ff3802;
     }
     h3{
         margin-right: 20px;
