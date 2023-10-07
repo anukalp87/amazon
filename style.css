@@ -82,7 +82,7 @@ nav ul li a:hover::after{
 h4{
     margin-top: 15px;
     margin-bottom: 15px;
-    font-size: 35px;
+    font-size: 25px;
     text-align: center;
     color: rgb(220, 194, 22);
 }
@@ -305,6 +305,7 @@ footer {
     font-size: 1rem;
     padding: 0.6rem;
 }
+
 footer a {
     color: #ffffff;
 }
